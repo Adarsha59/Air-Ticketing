@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/reg.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <header class="head">
+        <h1>Air-Ticketing</h1>
+      </header>
+
+      <nav class="list">
+        <ul>
+          <li class="l"><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </section>
+    <div class="container">
+      <h1>Registration</h1>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
